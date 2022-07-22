@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <title>Sorting Tables</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="wrapper">
+    <form action="">
+        <input id="capitalize"type="text" placeholder="Name" minlength="2" required/>
+        <input type="number"  placeholder="Raiting" size="4" maxlength="3" onchange="changeHandler(this)" required />
+        <input type="email" placeholder="Email" required/>
+        <div>
+            <input class="button" type="submit" value="ADD" />
+        </div>
+    </form>
+    <table class="table-sortable">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Raiting</th>
+            <th>Email</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Mykhailo</td>
+            <td>90</td>
+            <td>mr.kudenecz@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Stasy</td>
+            <td>26</td>
+            <td>stasy01@gmail.com</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<script src="script.js"></script>
+</body>

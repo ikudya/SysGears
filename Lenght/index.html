@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Стили</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="wrapper">
+        <div class="converter-el">
+            <h1 class="converter-title">Lenght Converter</h1>
+           <div class="convert_input">
+               <div class="input_select">
+                   <input type="number" placeholder="Input" id="input">
+                   <select  id="inputType">
+                       <option value="millimetre">Millimetres</option>
+                       <option value="centimetre">Centimeter</option>
+                       <option value="meter">Meter</option>
+                       <option value="kilometer">kilometer</option>
+                       <option value="foot">foot</option>
+                       <option value="inches">inches</option>
+                       <option value="yard">yard</option>
+                   </select>
+               </div>
+               <span>=</span>
+               <div class="result_select">
+                   <input type="text" placeholder="Result" id="result" readonly>
+                   <select  id="resultType">
+                       <option value="millimetre">Millimetres</option>
+                       <option value="centimetre">Centimeter</option>
+                       <option value="meter">Meter</option>
+                       <option value="kilometer">kilometer</option>
+                       <option value="foot">foot</option>
+                       <option value="inches">inches</option>
+                       <option value="yard">yard</option>
+                   </select>
+               </div>
+           </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    </body>
+</html>
