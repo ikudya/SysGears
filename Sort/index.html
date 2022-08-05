@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../styled.css">
 </head>
 
 <body>
@@ -13,7 +14,7 @@
         <input type="number"  placeholder="Raiting" size="4" maxlength="3" onchange="changeHandler(this)" required />
         <input type="email" placeholder="Email" required/>
         <div>
-            <input class="button" type="submit" value="ADD" />
+            <button type="submit">ADD</button>
         </div>
     </form>
     <table class="table-sortable">
@@ -38,6 +39,8 @@
         </tbody>
     </table>
 </div>
-
+<a href="../index.html">
+    <button class="Back">&#8592</button>
+</a>
 <script src="script.js"></script>
 </body>
